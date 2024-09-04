@@ -59,7 +59,7 @@ function LocationSelector() {
     <div>
       <h2>Select Location</h2>
 
-      <label htmlFor="country">Country:</label>
+      <label htmlFor="country"></label>
       <select id="country" value={selectedCountry} onChange={handleCountryChange}>
         <option value="">Select Country</option>
         {countries.map((country) => (
@@ -69,7 +69,7 @@ function LocationSelector() {
         ))}
       </select>
 
-      <label htmlFor="state">State:</label>
+      <label htmlFor="state"></label>
       <select 
         id="state" 
         value={selectedState} 
@@ -84,7 +84,7 @@ function LocationSelector() {
         ))}
       </select>
 
-      <label htmlFor="city">City:</label>
+      <label htmlFor="city"></label>
       <select 
         id="city" 
         value={selectedCity} 
